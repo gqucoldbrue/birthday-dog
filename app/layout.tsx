@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ReactNode } from 'react'
 
 // Loading Inter font with expanded character sets for better typography
 const inter = Inter({ 
