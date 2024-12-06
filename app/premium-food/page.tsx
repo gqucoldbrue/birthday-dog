@@ -1,8 +1,5 @@
-'use client'
-
+import React from 'react'
 import { motion } from "framer-motion"
-import Image from "next/image"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ShoppingBag, Leaf, Shield, Apple } from 'lucide-react'
 
@@ -13,9 +10,9 @@ export default function PremiumFoodPage() {
       <nav className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-4">
           <ul className="flex justify-center space-x-6">
-            <li><Link href="/" className="text-amber-600 hover:text-amber-800 font-semibold">Home</Link></li>
-            <li><Link href="/premium-food" className="text-amber-600 hover:text-amber-800 font-semibold">Premium Food</Link></li>
-            <li><Link href="/accessories" className="text-amber-600 hover:text-amber-800 font-semibold">Accessories</Link></li>
+            <li><a href="/" className="text-amber-600 hover:text-amber-800 font-semibold">Home</a></li>
+            <li><a href="/premium-food" className="text-amber-600 hover:text-amber-800 font-semibold">Premium Food</a></li>
+            <li><a href="/accessories" className="text-amber-600 hover:text-amber-800 font-semibold">Accessories</a></li>
           </ul>
         </div>
       </nav>
@@ -26,7 +23,7 @@ export default function PremiumFoodPage() {
           Premium Raw Dog Food
         </h1>
         <p className="text-xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-        For your precious family member, only the highest quality ingredients will do. They&apos;re worth it.
+          For your precious family member, only the highest quality ingredients will do. They&apos;re worth it.
         </p>
 
         {/* Main Product Section */}
@@ -37,15 +34,14 @@ export default function PremiumFoodPage() {
           className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden"
         >
           <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative h-[400px] md:h-[600px]">
-             <Image
-               src="/images/chicken-and-veggies.png"
-               alt="..."
-               fill
-               className="object-cover"
-               priority
-           />
-          </div>
+            <div className="relative h-[400px] md:h-[600px]">
+              {/* Replaced Next.js Image with standard img tag */}
+              <img
+                src="/api/placeholder/800/600"
+                alt="Premium chicken and vegetables blend"
+                className="object-cover w-full h-full"
+              />
+            </div>
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-6">Artisanal Chicken Blend</h2>
               <div className="prose prose-amber mb-8">
