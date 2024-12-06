@@ -53,7 +53,7 @@ export default function HomePage() {
             </p>
             <div className="prose prose-sm text-gray-600 mb-6">
               <p>
-                Look at it this way: it's either premium dog food, or an incredibly reasonable investment in your best friend's health. The Opti-Dog difference isn't built to the standards of mere pet supplies, but to the impossibly high standards of love itself.
+              Look at it this way: it&apos;s either premium dog food, or an incredibly reasonable investment in your best friend&apos;s health. The Opti-Dog difference isn&apos;t built to the standards of mere pet supplies, but to the impossibly high standards of love itself.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -88,7 +88,7 @@ export default function HomePage() {
             >
               <Shield className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
-              <p className="text-gray-600">Organic, fresh ingredients prepared with your dog's optimal health in mind.</p>
+              <p className="text-gray-600">Organic, fresh ingredients prepared with your dog&apos;s optimal health in mind.</p>
             </motion.div>
             <motion.div 
               whileHover={{ scale: 1.05 }}
@@ -104,7 +104,7 @@ export default function HomePage() {
             >
               <Heart className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Health First</h3>
-              <p className="text-gray-600">Every product selected with your dog's wellbeing as the priority.</p>
+              <p className="text-gray-600">Every product selected with your dog&apos;s wellbeing as the priority.</p>
             </motion.div>
           </div>
         </div>

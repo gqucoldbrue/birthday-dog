@@ -26,7 +26,7 @@ export default function PremiumFoodPage() {
           Premium Raw Dog Food
         </h1>
         <p className="text-xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-          For your precious family member, only the highest quality ingredients will do. They're worth it.
+        For your precious family member, only the highest quality ingredients will do. They&apos;re worth it.
         </p>
 
         {/* Main Product Section */}
@@ -50,10 +50,10 @@ export default function PremiumFoodPage() {
               <h2 className="text-3xl font-bold mb-6">Artisanal Chicken Blend</h2>
               <div className="prose prose-amber mb-8">
                 <p className="text-gray-600 text-lg">
-                  This isn't just chicken and vegetables - it's a masterclass in canine nutrition. Built not to the standards of conventional pet food, but to the impossibly high standards of whole-animal nutrition and premium ingredients.
+                  This isn&apos;t just chicken and vegetables - it&apos;s a masterclass in canine nutrition. Built not to the standards of conventional pet food, but to the impossibly high standards of whole-animal nutrition and premium ingredients.
                 </p>
                 <p className="text-gray-600 text-lg mt-4">
-                  While others merely meet the baseline, we've engineered a formula that transcends ordinary dog food. Our signature blend delivers a complete spectrum of essential nutrients: vitamins B, D, A, iron, phosphorus, and precision-balanced electrolytes.
+                  While others merely meet the baseline, we&apos;ve engineered a formula that transcends ordinary dog food. Our signature blend delivers a complete spectrum of essential nutrients: vitamins B, D, A, iron, phosphorus, and precision-balanced electrolytes.
                 </p>
                 <div className="mt-6 space-y-2">
                   <div className="flex items-center gap-2">
