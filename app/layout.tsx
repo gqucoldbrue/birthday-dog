@@ -3,27 +3,24 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ReactNode } from 'react'
 
-// Loading Inter font with expanded character sets for better typography
-const inter = Inter({ 
-  subsets: ['latin'],
-  display: 'swap',  // Ensures text remains visible during font load
-  variable: '--font-inter'  // Allows usage in Tailwind as font-inter
-})
-
 export const metadata: Metadata = {
   title: 'Opti-Dog Premium Care',
   description: 'Premium dog food and accessories for your beloved pets',
   keywords: 'premium dog food, dog accessories, pet care, dog nutrition',
-  openGraph: {
-    title: 'Opti-Dog Premium Care',
-    description: 'Premium dog food and accessories for your beloved pets',
-    type: 'website',
-    locale: 'en_US',
-    siteName: 'Opti-Dog'
-  },
-  viewport: 'width=device-width, initial-scale=1',
+  metadataBase: new URL('https://gqu-portfolio-website-ifo3iogsq-gqucoldbrues-projects.vercel.app'),
   robots: 'index, follow'
 }
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1
+}
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter'
+})
 
 export default function RootLayout({
   children,
