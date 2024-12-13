@@ -48,7 +48,7 @@ export default function AccessoriesPage() {
           >
             <div className="relative h-[400px]">
               <img
-                src="/api/placeholder/800/600"
+                src="/Golden-Retriever-Ad-1.png"
                 alt="Dog wearing premium winter coat"
                 className="w-full h-full object-cover"
               />
@@ -79,7 +79,7 @@ export default function AccessoriesPage() {
           >
             <div className="relative h-[400px]">
               <img
-                src="/api/placeholder/800/600"
+                src="/Pittie-Bix-Purple-Harness.png"
                 alt="Premium adjustable comfort accessories"
                 className="w-full h-full object-cover"
               />

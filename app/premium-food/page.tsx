@@ -38,7 +38,7 @@ export default function PremiumFoodPage() {
             <div className="relative h-[400px] md:h-[600px]">
               {/* Replaced Next.js Image with standard img tag */}
               <img
-                src="/api/placeholder/800/600"
+                src="/chicken-and-veggies.png"
                 alt="Premium chicken and vegetables blend"
                 className="object-cover w-full h-full"
               />
