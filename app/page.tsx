@@ -48,7 +48,7 @@ export default function HomePage() {
             </p>
             <div className="prose prose-sm text-gray-600 mb-6">
               <p>
-                The Opti-Dog difference isn&apos;t built to the standards of mere pet supplies, but to the impossibly high standards of love itself. Your pet&apos;s taste reflects yours, so it's gotta be the best.
+                The Opti-Dog difference isn&apos;t built to the standards of mere pet supplies, but to the impossibly high standards of love itself. Your best friend&apos;s taste reflects yours, so they get the best.
               </p>
             </div>
             <div className="flex flex-col gap-4">
