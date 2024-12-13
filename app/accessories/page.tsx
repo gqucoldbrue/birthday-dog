@@ -79,7 +79,7 @@ export default function AccessoriesPage() {
           >
             <div className="relative h-[400px]">
               <img
-                src="/Pittie-Bix-Purple-Harness.png"
+                src="/images/Pittie-Bix-Purple-Harness.png"
                 alt="Premium adjustable comfort accessories"
                 className="w-full h-full object-cover"
               />

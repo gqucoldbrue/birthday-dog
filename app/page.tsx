@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-black/20 z-10" />
           <img
-            src="/api/placeholder/1920/1080"
+            src="/images/gratisography-birthday-dog-sunglasses.png"
             alt="Stylish dog with sunglasses"
             className="object-cover w-full h-full filter brightness-95"
           />
