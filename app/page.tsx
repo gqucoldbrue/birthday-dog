@@ -48,7 +48,7 @@ export default function HomePage() {
             </p>
             <div className="prose prose-sm text-gray-600 mb-6">
               <p>
-                Look at it this way: it&apos;s either premium dog food, or an incredibly reasonable investment in your best friend&apos;s health. The Opti-Dog difference isn&apos;t built to the standards of mere pet supplies, but to the impossibly high standards of love itself.
+                The Opti-Dog difference isn&apos;t built to the standards of mere pet supplies, but to the impossibly high standards of love itself. Your pet&apos;s taste reflects yours, so it's gotta be the best.
               </p>
             </div>
             <div className="flex flex-col gap-4">
